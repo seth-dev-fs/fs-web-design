@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fswebdesign.vercel.app/sitemap.xml

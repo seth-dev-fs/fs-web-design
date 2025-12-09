@@ -1,0 +1,160 @@
+import { Helmet } from 'react-helmet-async'
+import { FaReact, FaNodeJs } from 'react-icons/fa'
+import {
+  SiNextdotjs,
+  SiTailwindcss,
+  SiTypescript,
+  SiFirebase,
+  SiVercel,
+  SiFigma,
+} from 'react-icons/si'
+import ScrollAnimation from '../components/ScrollAnimation'
+
+const About = () => {
+  const techStack = [
+    { name: 'React', icon: <FaReact />, color: 'text-[#61DAFB]' },
+    { name: 'Next.js', icon: <SiNextdotjs />, color: 'text-text-primary' },
+    { name: 'Tailwind CSS', icon: <SiTailwindcss />, color: 'text-[#06B6D4]' },
+    { name: 'TypeScript', icon: <SiTypescript />, color: 'text-[#3178C6]' },
+    { name: 'Node.js', icon: <FaNodeJs />, color: 'text-[#339933]' },
+    { name: 'Firebase', icon: <SiFirebase />, color: 'text-[#FFCA28]' },
+    { name: 'Vercel', icon: <SiVercel />, color: 'text-text-primary' },
+    { name: 'Figma', icon: <SiFigma />, color: 'text-[#F24E1E]' },
+  ]
+
+  const stats = [
+    { number: '5+', label: 'Projetos Completos' },
+    { number: '100%', label: 'Clientes Satisfeitos' },
+    { number: '2+', label: 'Anos de Experiência' },
+    { number: '24h', label: 'Tempo de Resposta' },
+  ]
+
+  return (
+    <>
+      <Helmet>
+        <title>Sobre | FS Web Design - Fábio Sousa Web Designer</title>
+        <meta
+          name="description"
+          content="Conheça Fábio Sousa, web designer e developer especializado em React, Next.js e Tailwind CSS. Criando experiências digitais para negócios locais em Portugal."
+        />
+        <link rel="canonical" href="https://fswebdesign.vercel.app/sobre" />
+      </Helmet>
+
+      <section className="section-container pt-32">
+        {/* Header */}
+        <ScrollAnimation>
+          <div className="text-center mb-16">
+            <h1 className="text-4xl md:text-5xl font-bold text-text-primary mb-4">
+              Sobre <span className="gradient-text">Mim</span>
+            </h1>
+            <p className="text-text-secondary max-w-2xl mx-auto text-lg">
+              Desenvolvedor apaixonado por criar experiências digitais que fazem
+              a diferença
+            </p>
+          </div>
+        </ScrollAnimation>
+
+        {/* About Content */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-24 items-center">
+          <ScrollAnimation delay={0.1}>
+            <div className="relative">
+              <div className="aspect-square rounded-2xl overflow-hidden card-hover">
+                <img
+                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80"
+                  alt="Fábio Sousa - Web Designer"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent-purple/20 rounded-full blur-3xl -z-10" />
+            </div>
+          </ScrollAnimation>
+
+          <ScrollAnimation delay={0.2}>
+            <div className="space-y-6">
+              <h2 className="text-3xl font-bold text-text-primary">
+                Olá, sou o Fábio Sousa
+              </h2>
+              <div className="space-y-4 text-text-secondary leading-relaxed">
+                <p>
+                  Sou web designer e developer especializado em ajudar pequenos
+                  negócios locais a construir uma presença digital profissional e
+                  impactante.
+                </p>
+                <p>
+                  Com experiência em React, Next.js e tecnologias modernas de
+                  desenvolvimento web, crio websites que não só têm um design
+                  bonito, mas que realmente funcionam para converter visitantes
+                  em clientes.
+                </p>
+                <p>
+                  Acredito que cada negócio merece ter uma presença online
+                  profissional, e é isso que me motiva todos os dias. Desde
+                  barbearias a restaurantes, ginásios a salões de beleza - ajudo
+                  negócios locais a destacarem-se no mundo digital.
+                </p>
+                <p>
+                  Quando não estou a programar, estou sempre a aprender sobre
+                  novas tecnologias e tendências de design para oferecer o melhor
+                  aos meus clientes.
+                </p>
+              </div>
+            </div>
+          </ScrollAnimation>
+        </div>
+
+        {/* Stats */}
+        <ScrollAnimation delay={0.3}>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-24">
+            {stats.map((stat, index) => (
+              <div key={index} className="card text-center">
+                <div className="text-4xl font-bold gradient-text mb-2">
+                  {stat.number}
+                </div>
+                <div className="text-text-secondary text-sm">{stat.label}</div>
+              </div>
+            ))}
+          </div>
+        </ScrollAnimation>
+
+        {/* Tech Stack */}
+        <ScrollAnimation delay={0.4}>
+          <div className="mb-24">
+            <h2 className="text-3xl font-bold text-text-primary text-center mb-12">
+              Tech Stack
+            </h2>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+              {techStack.map((tech, index) => (
+                <ScrollAnimation key={index} delay={0.4 + index * 0.05}>
+                  <div className="card-hover flex flex-col items-center justify-center p-8 space-y-3">
+                    <div className={`text-5xl ${tech.color}`}>{tech.icon}</div>
+                    <span className="text-text-primary font-medium">
+                      {tech.name}
+                    </span>
+                  </div>
+                </ScrollAnimation>
+              ))}
+            </div>
+          </div>
+        </ScrollAnimation>
+
+        {/* CTA */}
+        <ScrollAnimation delay={0.6}>
+          <div className="card-hover text-center py-16 px-8 max-w-3xl mx-auto">
+            <h3 className="text-2xl md:text-3xl font-bold text-text-primary mb-4">
+              Vamos trabalhar juntos?
+            </h3>
+            <p className="text-text-secondary mb-8 text-lg">
+              Estou sempre aberto a novos projetos e colaborações. Entre em
+              contacto e vamos criar algo incrível.
+            </p>
+            <a href="/contacto" className="btn-gradient">
+              Entrar em Contacto
+            </a>
+          </div>
+        </ScrollAnimation>
+      </section>
+    </>
+  )
+}
+
+export default About
