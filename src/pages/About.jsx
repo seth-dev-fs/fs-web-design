@@ -57,7 +57,7 @@ const About = () => {
         {/* About Content */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-24 items-center">
           <ScrollAnimation delay={0.1}>
-            <div className="relative">
+            <div className="relative max-w-md mx-auto lg:mx-0">
               <div className="aspect-square rounded-2xl overflow-hidden card-hover">
                 <img
                   src="/fabio.jpeg"

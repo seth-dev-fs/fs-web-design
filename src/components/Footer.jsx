@@ -91,7 +91,7 @@ const Footer = () => {
                   className="text-text-secondary hover:text-accent-purple transition-colors text-sm flex items-center space-x-2"
                 >
                   <FaInstagram />
-                  <span>@fs_webdesigner</span>
+                  <span>@seth_dev_fs</span>
                 </a>
               </li>
             </ul>
