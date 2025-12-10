@@ -24,8 +24,8 @@ const About = () => {
 
   const stats = [
     { number: '5+', label: 'Projetos Completos' },
-    { number: '100%', label: 'Clientes Satisfeitos' },
-    { number: '2+', label: 'Anos de Experiência' },
+    { number: '20+', label: 'Anos na Continental' },
+    { number: '100%', label: 'Dedicação' },
     { number: '24h', label: 'Tempo de Resposta' },
   ]
 
@@ -76,26 +76,36 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-text-secondary leading-relaxed">
                 <p>
-                  Sou web designer e developer especializado em ajudar pequenos
-                  negócios locais a construir uma presença digital profissional e
-                  impactante.
+                  Tenho 41 anos, sou casado e pai orgulhoso de duas filhas maravilhosas.
+                  A família é o meu centro — e também a minha maior motivação para evoluir
+                  e construir algo com significado.
                 </p>
                 <p>
-                  Com experiência em React, Next.js e tecnologias modernas de
-                  desenvolvimento web, crio websites que não só têm um design
-                  bonito, mas que realmente funcionam para converter visitantes
-                  em clientes.
+                  Desde criança que a tecnologia faz parte da minha vida. Desmontava
+                  brinquedos para perceber como funcionavam. Mais tarde vieram os computadores,
+                  os componentes, as experiências. Sempre tive essa curiosidade de perceber,
+                  testar e melhorar tudo o que envolvesse tecnologia.
                 </p>
                 <p>
-                  Acredito que cada negócio merece ter uma presença online
-                  profissional, e é isso que me motiva todos os dias. Desde
-                  barbearias a restaurantes, ginásios a salões de beleza - ajudo
-                  negócios locais a destacarem-se no mundo digital.
+                  Estou há mais de 20 anos na Continental Mabor, onde aprendi o valor da
+                  consistência, do trabalho bem feito e da evolução contínua. Mas a tecnologia
+                  nunca ficou para trás. Com o tempo, senti a necessidade de voltar a aprender,
+                  de criar algo meu.
                 </p>
                 <p>
-                  Quando não estou a programar, estou sempre a aprender sobre
-                  novas tecnologias e tendências de design para oferecer o melhor
-                  aos meus clientes.
+                  Estudei HTML, CSS e JavaScript, e comecei a explorar o mundo do web design.
+                  Hoje utilizo React, Next.js e inteligência artificial como aliada criativa,
+                  desenvolvendo websites modernos, funcionais e orientados para resultados.
+                </p>
+                <p>
+                  Crio sites para barbearias, salões de beleza, ginásios, restaurantes e pequenos
+                  negócios que querem marcar presença online de forma profissional — sem complicações,
+                  mas com identidade e propósito.
+                </p>
+                <p>
+                  Estou a construir esta nova etapa com a mesma dedicação que sempre tive:
+                  aprender todos os dias, entregar trabalho com qualidade e ajudar negócios
+                  reais a crescer no digital.
                 </p>
               </div>
             </div>
