@@ -85,7 +85,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://instagram.com/fs_webdesigner"
+                  href="https://www.instagram.com/seth_dev_fs/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-text-secondary hover:text-accent-purple transition-colors text-sm flex items-center space-x-2"

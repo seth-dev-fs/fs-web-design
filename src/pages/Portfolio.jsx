@@ -5,6 +5,13 @@ import ScrollAnimation from '../components/ScrollAnimation'
 const Portfolio = () => {
   const projects = [
     {
+      title: 'Nexora News',
+      description: '🔥 PROJETO AVANÇADO - Portal de notícias tech com IA. Sistema automático de geração de conteúdo usando Gemini AI, integração Unsplash API para imagens, categorias dinâmicas e arquitectura Next.js completa. Demonstra capacidade técnica avançada.',
+      image: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&q=80',
+      link: 'https://nexoranews.vercel.app/',
+      tech: ['Next.js', 'Gemini AI', 'Unsplash API', 'React'],
+    },
+    {
       title: 'Barbershop Demo',
       description: 'Website moderno para barbearia com sistema de agendamento online, galeria de serviços e integração WhatsApp. Design minimalista com foco em conversão.',
       image: 'https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=800&q=80',
@@ -29,15 +36,8 @@ const Portfolio = () => {
       title: 'Bella Salon',
       description: 'Website elegante para salão de beleza com galeria de serviços, sistema de marcação online e integração com redes sociais para máxima visibilidade.',
       image: 'https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&q=80',
-      link: '#',
-      tech: ['React', 'Tailwind CSS', 'Firebase'],
-    },
-    {
-      title: 'Projeto Futuro',
-      description: 'Espaço reservado para o próximo projeto incrível. Especializado em websites para pequenos negócios locais que querem destacar-se online.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80',
-      link: '#',
-      tech: ['Em Breve'],
+      link: 'https://salon-bella-demo.vercel.app/',
+      tech: ['React', 'Tailwind CSS', 'Vite'],
     },
   ]
 

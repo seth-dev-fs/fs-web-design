@@ -26,6 +26,13 @@ const FeaturedProjects = () => {
       link: 'https://coach-fitness-pt.vercel.app/',
       tech: ['React', 'Tailwind', 'Vite'],
     },
+    {
+      title: 'Nexora News',
+      description: 'Portal de notícias tech avançado com IA, geração automática de conteúdo, integração Gemini API e sistema de categorias dinâmico.',
+      image: 'https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&q=80',
+      link: 'https://nexoranews.vercel.app/',
+      tech: ['Next.js', 'Gemini AI', 'Unsplash API'],
+    },
   ]
 
   return (
@@ -42,7 +49,7 @@ const FeaturedProjects = () => {
         </div>
       </ScrollAnimation>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
         {featuredProjects.map((project, index) => (
           <ProjectCard key={index} project={project} delay={index * 0.1} />
         ))}

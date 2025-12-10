@@ -49,8 +49,8 @@ const Contact = () => {
     {
       icon: <FaInstagram />,
       title: 'Instagram',
-      value: '@fs_webdesigner',
-      link: 'https://instagram.com/fs_webdesigner',
+      value: '@seth_dev_fs',
+      link: 'https://www.instagram.com/seth_dev_fs/',
       color: 'text-[#E4405F]',
     },
     {

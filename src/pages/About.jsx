@@ -60,7 +60,7 @@ const About = () => {
             <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden card-hover">
                 <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80"
+                  src="/fabio.jpeg"
                   alt="Fábio Sousa - Web Designer"
                   className="w-full h-full object-cover"
                 />
