@@ -10,11 +10,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1">
-            <Link to="/" className="flex items-center space-x-2 mb-4">
-              <span className="text-2xl font-bold gradient-text">FS</span>
-              <span className="text-lg font-semibold text-text-primary">
-                Web Design
-              </span>
+            <Link to="/" className="flex items-center mb-4">
+              <img
+                src="/logo-horizontal.png"
+                alt="FS Web Design"
+                className="h-10 w-auto"
+              />
             </Link>
             <p className="text-text-secondary text-sm">
               Transformando negócios locais em experiências digitais memoráveis.
