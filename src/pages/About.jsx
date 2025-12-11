@@ -60,9 +60,10 @@ const About = () => {
             <div className="relative max-w-md mx-auto lg:mx-0">
               <div className="aspect-square rounded-2xl overflow-hidden card-hover">
                 <img
-                  src="/fabio-profissional.png"
+                  src="/fabio-profissional.jpg"
                   alt="Fábio Sousa - Web Designer"
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent-purple/20 rounded-full blur-3xl -z-10" />
