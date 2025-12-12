@@ -56,8 +56,8 @@ const Contact = () => {
     {
       icon: <FaMapMarkerAlt />,
       title: 'Localização',
-      value: 'Vila Nova de Famalicão',
-      link: 'https://www.google.com/maps/place/Vila+Nova+de+Famelic%C3%A3o',
+      value: 'Trofa',
+      link: 'https://www.google.com/maps/place/Trofa',
       color: 'text-accent-gold',
     },
   ]
@@ -68,7 +68,7 @@ const Contact = () => {
         <title>Contacto | FS Web Design - Entre em Contacto</title>
         <meta
           name="description"
-          content="Contacte FS Web Design em Vila Nova de Famalicão. Web designer profissional para negócios locais. WhatsApp: +351 912 004 595 | Resposta em 24h"
+          content="Contacte FS Web Design na Trofa. Web designer profissional para negócios locais. WhatsApp: +351 912 004 595 | Resposta em 24h"
         />
         <link rel="canonical" href="https://fswebdesign.vercel.app/contacto" />
       </Helmet>
@@ -293,18 +293,18 @@ const Contact = () => {
             </h2>
             <div className="card overflow-hidden p-0">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48004.89348755588!2d-8.551349!3d41.408300!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24fda095c2a60b%3A0x400ebbde49110d0!2sVila%20Nova%20de%20Famelic%C3%A3o!5e0!3m2!1spt-PT!2spt!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30261.89348755588!2d-8.5606!3d41.3386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd246b3e6f0c6e9f%3A0x400ebbde49110d0!2sTrofa!5e0!3m2!1spt-PT!2spt!4v1234567890"
                 width="100%"
                 height="400"
                 style={{ border: 0 }}
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Localização FS Web Design - Vila Nova de Famalicão"
+                title="Localização FS Web Design - Trofa"
               ></iframe>
               <div className="p-6 bg-bg-secondary border-t border-border-subtle">
                 <p className="text-text-secondary text-center">
-                  <strong className="text-text-primary">Sediado em Vila Nova de Famalicão</strong> — Atendimento presencial ou remoto em todo o distrito de Braga e Porto.
+                  <strong className="text-text-primary">Sediado na Trofa</strong> — Atendimento presencial ou remoto em todo o distrito de Braga e Porto.
                   Reuniões presenciais disponíveis conforme necessário.
                 </p>
               </div>

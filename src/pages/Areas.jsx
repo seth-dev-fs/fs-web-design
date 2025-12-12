@@ -5,19 +5,19 @@ import ScrollAnimation from '../components/ScrollAnimation'
 const Areas = () => {
   const areas = [
     {
-      city: 'Vila Nova de Famalicão',
-      description: 'Web designer em Famalicão especializado em websites para restaurantes, barbearias, salões, ginásios e clínicas. Atendimento personalizado e presencial se necessário.',
+      city: 'Trofa',
+      description: 'Web designer na Trofa especializado em websites para restaurantes, barbearias, salões, ginásios e clínicas. Atendimento personalizado e presencial se necessário.',
       services: ['Websites profissionais', 'Otimização SEO', 'Manutenção mensal', 'Consultoria presencial'],
       highlight: true
     },
     {
-      city: 'Santo Tirso',
-      description: 'Criação de sites profissionais em Santo Tirso. Desenvolvimento web moderno para negócios locais que querem destacar-se online.',
+      city: 'Vila Nova de Famalicão',
+      description: 'Criação de sites profissionais em Famalicão. Desenvolvimento web moderno para negócios locais que querem destacar-se online.',
       services: ['Design moderno', 'Performance otimizada', 'Mobile-first', 'Suporte técnico']
     },
     {
-      city: 'Trofa',
-      description: 'Websites responsivos para empresas na Trofa. Design personalizado e performance otimizada para conversão de visitantes em clientes.',
+      city: 'Santo Tirso',
+      description: 'Websites responsivos para empresas em Santo Tirso. Design personalizado e performance otimizada para conversão de visitantes em clientes.',
       services: ['Sites responsivos', 'Integração WhatsApp', 'Galeria de fotos', 'Formulários contacto']
     },
     {
@@ -45,10 +45,10 @@ const Areas = () => {
   return (
     <>
       <Helmet>
-        <title>Áreas Servidas | Web Design em Famalicão, Santo Tirso, Trofa e Maia</title>
+        <title>Áreas Servidas | Web Design na Trofa, Famalicão, Santo Tirso e Maia</title>
         <meta
           name="description"
-          content="FS Web Design serve Vila Nova de Famalicão, Santo Tirso, Trofa, Maia, Vila do Conde, Póvoa de Varzim e Guimarães. Websites profissionais para negócios locais."
+          content="FS Web Design serve Trofa, Vila Nova de Famalicão, Santo Tirso, Maia, Vila do Conde, Póvoa de Varzim e Guimarães. Websites profissionais para negócios locais."
         />
         <meta name="keywords" content="web design famalicão, web designer santo tirso, websites trofa, criação sites maia, desenvolvimento web vila do conde" />
         <link rel="canonical" href="https://fswebdesign.vercel.app/areas" />
@@ -82,8 +82,8 @@ const Areas = () => {
                   Atendimento Local Personalizado
                 </h2>
                 <p className="text-text-secondary leading-relaxed">
-                  Oferecemos serviços de criação de websites profissionais em{' '}
-                  <strong className="text-text-primary">Vila Nova de Famalicão</strong> e arredores.
+                  Oferecemos serviços de criação de websites profissionais na{' '}
+                  <strong className="text-text-primary">Trofa</strong> e arredores.
                   Com presença local, podemos marcar reuniões presenciais, conhecer pessoalmente o seu negócio
                   e oferecer um serviço verdadeiramente personalizado.
                 </p>

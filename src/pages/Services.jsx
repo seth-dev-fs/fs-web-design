@@ -95,10 +95,10 @@ const Services = () => {
   return (
     <>
       <Helmet>
-        <title>Serviços | FS Web Design - Criação de Websites em Famalicão</title>
+        <title>Serviços | FS Web Design - Criação de Websites na Trofa</title>
         <meta
           name="description"
-          content="Web design em Vila Nova de Famalicão: Landing Pages (€250), Websites Completos (€350-500), Soluções Premium (€600-1000). Atendimento em Braga e Porto."
+          content="Web design na Trofa: Landing Pages (€250), Websites Completos (€350-500), Soluções Premium (€600-1000). Atendimento em Braga e Porto."
         />
         <link rel="canonical" href="https://fswebdesign.vercel.app/servicos" />
       </Helmet>

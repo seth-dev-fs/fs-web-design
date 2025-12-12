@@ -43,7 +43,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Transformo negócios locais em Famalicão e região em experiências digitais memoráveis.
+            Transformo negócios locais na Trofa e região em experiências digitais memoráveis.
             Websites profissionais que não só ficam bonitos, mas convertem
             visitantes em clientes.
           </motion.p>
