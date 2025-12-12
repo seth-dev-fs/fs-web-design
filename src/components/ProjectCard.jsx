@@ -7,11 +7,17 @@ const ProjectCard = ({ project, delay = 0 }) => {
       <div className="card-hover overflow-hidden group">
         {/* Project Image */}
         <div className="relative h-64 overflow-hidden rounded-lg mb-4">
-          <img
-            src={project.image}
-            alt={project.title}
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-          />
+          <picture>
+            <source srcSet={project.image} type="image/webp" />
+            <img
+              src={project.imageFallback || project.image}
+              alt={project.title}
+              className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              loading="lazy"
+              width="400"
+              height="256"
+            />
+          </picture>
           <div className="absolute inset-0 bg-gradient-to-t from-bg-primary via-transparent to-transparent opacity-60" />
 
           {/* Overlay on Hover */}

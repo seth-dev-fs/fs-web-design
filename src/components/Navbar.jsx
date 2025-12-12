@@ -39,11 +39,17 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-24">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <img
-              src="/logo.png"
-              alt="FS Web Design"
-              className="h-16 w-auto"
-            />
+            <picture>
+              <source srcSet="/logo.webp" type="image/webp" />
+              <img
+                src="/logo.png"
+                alt="FS Web Design"
+                className="h-16 w-auto"
+                width="180"
+                height="64"
+                fetchpriority="high"
+              />
+            </picture>
           </Link>
 
           {/* Desktop Navigation */}

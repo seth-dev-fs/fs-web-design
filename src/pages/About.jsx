@@ -59,12 +59,17 @@ const About = () => {
           <ScrollAnimation delay={0.1}>
             <div className="relative max-w-md mx-auto lg:mx-0">
               <div className="aspect-square rounded-2xl overflow-hidden card-hover">
-                <img
-                  src="/fabio-profissional.jpg"
-                  alt="Fábio Sousa - Web Designer"
-                  className="w-full h-full object-cover"
-                  loading="lazy"
-                />
+                <picture>
+                  <source srcSet="/fabio-profissional.webp" type="image/webp" />
+                  <img
+                    src="/fabio-profissional.jpg"
+                    alt="Fábio Sousa - Web Designer"
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                    width="400"
+                    height="400"
+                  />
+                </picture>
               </div>
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent-purple/20 rounded-full blur-3xl -z-10" />
             </div>
