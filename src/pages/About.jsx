@@ -35,7 +35,7 @@ const About = () => {
         <title>Sobre | FS Web Design - Fábio Sousa Web Designer</title>
         <meta
           name="description"
-          content="Conheça Fábio Sousa, web designer e developer especializado em React, Next.js e Tailwind CSS. Criando experiências digitais para negócios locais em Portugal."
+          content="Conheça Fábio Sousa, web designer em Vila Nova de Famalicão especializado em React e Next.js. Criando websites profissionais para negócios locais em Braga e Porto."
         />
         <link rel="canonical" href="https://fswebdesign.vercel.app/sobre" />
       </Helmet>

@@ -8,10 +8,10 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>FS Web Design | Web Designer & Developer em Portugal</title>
+        <title>FS Web Design | Web Designer em Vila Nova de Famalicão</title>
         <meta
           name="description"
-          content="Fábio Sousa - Web Designer especializado em criar websites profissionais para negócios locais. React, Next.js, Tailwind CSS. Transforme visitantes em clientes."
+          content="Web Designer em Vila Nova de Famalicão especializado em websites profissionais para negócios locais em Braga e Porto. Transforme visitantes em clientes com design moderno."
         />
         <link rel="canonical" href="https://fswebdesign.vercel.app/" />
       </Helmet>
