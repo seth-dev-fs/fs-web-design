@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async'
-import { FiPhone, FiMail, FiMapPin, FiCheck, FiLeaf } from 'react-icons/fi'
-import { FaWhatsapp } from 'react-icons/fa'
+import { FiPhone, FiMail, FiMapPin, FiCheck } from 'react-icons/fi'
+import { FaWhatsapp, FaLeaf } from 'react-icons/fa'
 import ScrollAnimation from '../../components/ScrollAnimation'
 
 const ErvanariaCentral = () => {
@@ -79,7 +79,7 @@ const ErvanariaCentral = () => {
         <div className="section-container relative z-10 text-center">
           <ScrollAnimation>
             <div className="mb-6">
-              <FiLeaf className="text-6xl text-green-400 mx-auto mb-4" />
+              <FaLeaf className="text-6xl text-green-400 mx-auto mb-4" />
             </div>
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
               Ervanária Central
