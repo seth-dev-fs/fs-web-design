@@ -499,4 +499,52 @@ Projeto **100% completo e pronto para deploy**!
 
 ---
 
+## 🎨 Demo Pages
+
+### Ervanária Central Demo (`/demo/ervanaria-central`)
+
+**Criado:** 18 de Dezembro de 2024
+**Objetivo:** Mockup profissional para prospect (Patrícia Sousa Silva / Filipe)
+**URL:** https://fswebdesign.vercel.app/demo/ervanaria-central
+
+**Features:**
+- Design verde/natural (tema ervanária)
+- Hero section com animações
+- 6 categorias de produtos
+- Catálogo com 6 produtos exemplo
+- Secção "Sobre" profissional
+- Contacto com WhatsApp integration (913 872 772)
+- Totalmente responsivo
+- Imagens reais (Unsplash API)
+
+**Stack:**
+- React 18
+- Tailwind CSS (custom green theme)
+- Framer Motion animations
+- React Icons (Fa + Fi)
+- React Helmet (SEO)
+
+**Secções:**
+1. Hero - Full screen com leaf icon e gradiente verde
+2. Categories - 6 categorias com ícones emoji
+3. Products - Grid 3 colunas com produtos
+4. About - 2 colunas (imagem + texto)
+5. Contact - 3 cards de contacto
+6. CTA - Call-to-action final
+
+**Customização para cliente real:**
+- Trocar produtos/fotos reais
+- Adicionar logo próprio
+- Ajustar cores se necessário
+- Integrar WhatsApp real
+- Adicionar mais categorias/produtos
+
+**Nota técnica:**
+- Demo page sem Navbar/Footer do FS Web Design
+- Rota separada para parecer site standalone
+- Código modular e reutilizável
+- Pronto para adaptar para cliente real em 2-3 dias
+
+---
+
 *Desenvolvido seguindo o sistema de 5 agents com qualidade profissional máxima.*
