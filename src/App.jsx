@@ -8,23 +8,34 @@ import About from './pages/About'
 import Services from './pages/Services'
 import Contact from './pages/Contact'
 import Areas from './pages/Areas'
+import ErvanariaCentral from './pages/demos/ErvanariaCentral'
 
 function App() {
   return (
     <div className="min-h-screen flex flex-col">
-      <Navbar />
-      <main className="flex-grow pt-20">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/sobre" element={<About />} />
-          <Route path="/servicos" element={<Services />} />
-          <Route path="/areas" element={<Areas />} />
-          <Route path="/contacto" element={<Contact />} />
-        </Routes>
-      </main>
-      <Footer />
-      <WhatsAppButton />
+      <Routes>
+        {/* Demo pages - no navbar/footer */}
+        <Route path="/demo/ervanaria-central" element={<ErvanariaCentral />} />
+
+        {/* Main site pages */}
+        <Route path="/*" element={
+          <>
+            <Navbar />
+            <main className="flex-grow pt-20">
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/portfolio" element={<Portfolio />} />
+                <Route path="/sobre" element={<About />} />
+                <Route path="/servicos" element={<Services />} />
+                <Route path="/areas" element={<Areas />} />
+                <Route path="/contacto" element={<Contact />} />
+              </Routes>
+            </main>
+            <Footer />
+            <WhatsAppButton />
+          </>
+        } />
+      </Routes>
     </div>
   )
 }
